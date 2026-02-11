@@ -11,37 +11,13 @@ But first, let's set the stage.
 
 This year's coding challenges are all about voluntary activities. The United Nations has designated 2026 as the International Year of Volunteers and we want you to think about what such an initiative could be. For this month's coding challenge, think about how you could utilize the Orchestration Workflow to support volunteer initiatives.
 
-Imagine you are working on a project for which you should ground and orchestrate contextual information to a Large Language Model (LLM) in order to support a voluntary organization, group or individuals. Here are some example use cases you can get inspired by:
+Imagine you are working on a project for which you should ground and orchestrate contextual information to a Large Language Model (LLM) in order to support a voluntary organization, group or individuals. Here is the use case for this challenge:
 
-1. Disaster Relief Coordinator Assistant
-   Ground emergency response procedures, local shelter locations, and volunteer skill databases. The orchestration workflow could:
-   - Match volunteers with specific disaster relief needs based on their skills
-   - Provide real-time guidance on emergency protocols
-   - Generate personalized volunteer briefings based on current situation reports
-
-2. Community Food Bank Navigator
-   Ground food bank inventory, dietary restrictions databases, and distribution schedules. Use cases:
-   - Help volunteers quickly answer client questions about available food items
-   - Generate culturally appropriate meal suggestions based on current inventory
-   - Create multilingual information sheets for diverse communities
-
-3. Environmental Conservation Knowledge Base
+**Environmental Conservation Knowledge Base**
    Ground scientific reports, species identification guides, and local ecosystem data. Applications:
    - Assist volunteer park rangers with species identification queries
    - Generate educational content for school visits based on seasonal wildlife activity
    - Create site-specific conservation action plans for volunteer groups
-
-4. Senior Care Companion Support
-   Ground medical guidelines, activity recommendations, and local senior resources. Benefits:
-   - Help volunteers provide accurate information about medication schedules
-   - Suggest appropriate activities based on mobility levels and interests
-   - Generate conversation starters tailored to individual senior backgrounds
-
-5. Refugee Integration Helper
-   Ground immigration procedures, local services directories, and language learning resources:
-   - Answer common questions about housing, healthcare, and employment in multiple languages
-   - Generate personalized integration roadmaps based on individual circumstances
-   - Create cultural orientation materials specific to the local community
 
 ## The Solution Diagram
 
@@ -127,13 +103,15 @@ Now that you have a better understanding of the technology stack used and the ar
 
 You will work through the challenge using Jupiter Notebooks in Business Application Studio. Here you can comfortably use a Python environment and a pre-defined environment to work on the challenges.
 
+You don't have to take care of the infrastructure setup. We will provide you with access to a fully functioning system to work through the Jupyter Notebooks.
+
 The challenge is structured as follows:
 
 **Week 1:**
 
 - Understand and work on the orchestration workflow
-- Understand and implement document grounding
-- Ground a document & test the orchestration workflow
+- Understand document grounding
+- Ground a provided document & test the orchestration workflow
 
 **Week 2:**
 
