@@ -1,17 +1,20 @@
 # Coding Challenge - The Orchestration Workflow in Generative AI Hub on SAP AI Core
 
 For this month's coding challenge on the SAP Community, you will have the opportunity to learn more about the Orchestration Workflow available on Generative AI Hub with SAP AI Core.
-You will learn how to work with the APIs of the SAP Cloud SDK for AI to create an orchestration workflow including document grounding. You will also work on building a code-based agent to consume the grounded document information.
 
-The coding challenge will span over the next four weeks where you will be working on 4 separate challenges, one for every week. At the end of each week you need to upload the results of the given week's challenge. This can be a screenshot or a configuration file but no worries, each week's challenge will exactly tell you what to do.
+**What you'll learn:** Build production-ready AI solutions that combine Retrieval-Augmented Generation (RAG) with intelligent agents. You will learn how to work with the APIs of the SAP Cloud SDK for AI to create an orchestration workflow including document grounding, and build code-based agents that leverage grounded document information to provide accurate, context-aware responses.
+
+The coding challenge will span over the next four weeks where you will be working on 4 separate challenges, one for every week. At the end of each week you need to upload the results of the given week's challenge. This can be a screenshot or a configuration file, but no worries, each week's challenge will exactly tell you what to do.
 
 But first, let's set the stage.
 
 ## Setting the stage
 
-This year's coding challenges are all about voluntary activities. The United Nations has designated 2026 as the International Year of Volunteers and we want you to think about what such an initiative could be. For this month's coding challenge, think about how you could utilize the Orchestration Workflow to support volunteer initiatives.
+This year's coding challenges are all about voluntary activities. The United Nations has designated 2026 as the International Year of Volunteers and we want you to think about what such an initiative could be. 
 
-Imagine you are working on a project for which you should ground and orchestrate contextual information to a Large Language Model (LLM) in order to support a voluntary organization, group or individuals. Here is the use case for this challenge:
+**Why this matters:** Volunteer organizations often struggle with information accessibility - experienced knowledge is scattered across documents, reports, and guides. By combining AI orchestration with document grounding, you can create intelligent assistants that make this knowledge instantly accessible to volunteers in the field, enabling them to make better decisions and have greater impact.
+
+For this month's coding challenge, you'll build a system that could support volunteer initiatives by grounding and orchestrating contextual information to a Large Language Model (LLM). Here is the use case for this challenge:
 
 **Environmental Conservation Knowledge Base**
    Ground scientific reports, species identification guides, and local ecosystem data. Applications:
@@ -101,9 +104,23 @@ This architecture demonstrates a complete RAG implementation using SAP's AI serv
 
 Now that you have a better understanding of the technology stack used and the architecture, let's talk about the challenge.
 
-You will work through the challenge using Jupiter Notebooks in Business Application Studio. Here you can comfortably use a Python environment and a pre-defined environment to work on the challenges.
+**TL;DR:** Over four weeks, you'll progress from basic document grounding to building intelligent agents that can reason with domain-specific knowledge, all using Jupyter Notebooks with pre-configured infrastructure.
+
+### Prerequisites
+
+To successfully complete this challenge, you should have:
+- Basic Python programming experience
+- Familiarity with Jupyter Notebooks
+- Understanding of REST APIs (helpful but not required)
+- Interest in AI/ML concepts (no deep expertise needed)
+
+### Environment Setup
+
+You will work through the challenge using Jupyter Notebooks in Business Application Studio. Here you can comfortably use a Python environment and a pre-defined environment to work on the challenges.
 
 You don't have to take care of the infrastructure setup. We will provide you with access to a fully functioning system to work through the Jupyter Notebooks.
+
+### Weekly Structure
 
 The challenge is structured as follows:
 
@@ -124,4 +141,15 @@ The challenge is structured as follows:
 
 **Week 4:**
 
-- Utilize SAP's RPT-1 model from a code-based to understand and populate tabular data structures
+- Utilize SAP's RPT-1 model from a code-based agent to understand and populate tabular data structures
+- Extract structured information from unstructured documents
+- Automatically fill forms and templates using AI-driven data extraction
+
+### Submission Requirements
+
+At the end of each week, you'll need to submit evidence of your completed challenge:
+- Screenshots of successful executions
+- Configuration files or code snippets as specified in each week's exercise
+- Brief description of any challenges you encountered and how you solved them
+
+Detailed submission instructions will be provided in each week's Jupyter Notebook.
