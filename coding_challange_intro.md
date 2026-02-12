@@ -10,17 +10,18 @@ But first, let's set the stage.
 
 ## Setting the stage
 
-This year's coding challenges are all about voluntary activities. The United Nations has designated 2026 as the International Year of Volunteers and we want you to think about what such an initiative could be. 
+This year's coding challenges are all about voluntary activities. The United Nations has designated 2026 as the International Year of Volunteers and we want you to think about what such an initiative could be.
 
 **Why this matters:** Volunteer organizations often struggle with information accessibility - experienced knowledge is scattered across documents, reports, and guides. By combining AI orchestration with document grounding, you can create intelligent assistants that make this knowledge instantly accessible to volunteers in the field, enabling them to make better decisions and have greater impact.
 
 For this month's coding challenge, you'll build a system that could support volunteer initiatives by grounding and orchestrating contextual information to a Large Language Model (LLM). Here is the use case for this challenge:
 
 **Environmental Conservation Knowledge Base**
-   Ground scientific reports, species identification guides, and local ecosystem data. Applications:
-   - Assist volunteer park rangers with species identification queries
-   - Generate educational content for school visits based on seasonal wildlife activity
-   - Create site-specific conservation action plans for volunteer groups
+Ground scientific reports, species identification guides, and local ecosystem data. Applications:
+
+- Assist volunteer park rangers with species identification queries
+- Generate educational content for school visits based on seasonal wildlife activity
+- Create site-specific conservation action plans for volunteer groups
 
 ## The Solution Diagram
 
@@ -109,6 +110,7 @@ Now that you have a better understanding of the technology stack used and the ar
 ### Prerequisites
 
 To successfully complete this challenge, you should have:
+
 - Basic Python programming experience
 - Familiarity with Jupyter Notebooks
 - Understanding of REST APIs (helpful but not required)
@@ -148,6 +150,7 @@ The challenge is structured as follows:
 ### Submission Requirements
 
 At the end of each week, you'll need to submit evidence of your completed challenge:
+
 - Screenshots of successful executions
 - Configuration files or code snippets as specified in each week's exercise
 - Brief description of any challenges you encountered and how you solved them
