@@ -45,7 +45,7 @@ def get_service_key(service_name, service_key_name, output_file):
             "AICORE_CLIENT_ID": service_key_data.get("credentials")["clientid"],
             "AICORE_CLIENT_SECRET": service_key_data.get("credentials")["clientsecret"],
             "AICORE_BASE_URL": service_key_data.get("credentials")["serviceurls"]["AI_API_URL"],
-            "AICORE_RESOURCE_GROUP": "default"
+            "AICORE_RESOURCE_GROUP": "doc-grounding"
         }
 
         # Write the config data to config.json
