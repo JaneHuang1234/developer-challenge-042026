@@ -2,7 +2,7 @@
 
 ## Overview
 
-This exercise introduces AI agent development by combining CrewAI (an agent framework), LiteLLM (a unified LLM interface), and SAP's Generative AI Hub to create intelligent, task-oriented agents.
+This exercise introduces AI agent development by combining CrewAI (an agent framework), LiteLLM (a unified LLM interface), and SAP's Generative AI Hub as the LLM provider to create intelligent, task-oriented agents.
 
 ## What You'll Achieve
 
