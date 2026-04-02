@@ -76,7 +76,7 @@ To fully understand the single steps that need to be taken, you can use the foll
 
 ![code_challenge_sd](<./Grounding%20Document%20&%20Vectorization%20(SAP%20BTP%20on%20AWS).png>)
 
-### Grounding Document & Vectorization Process on SAP BTP with AWS
+### Grounding Document & Vectorization Process on SAP BTP
 
 This sequence diagram illustrates the complete workflow for setting up a document grounding pipeline and orchestration workflow using SAP AI Core on SAP BTP (running on AWS infrastructure).
 
