@@ -1,4 +1,4 @@
-# Coding Challenge - The Orchestration Workflow in Generative AI Hub on SAP AI Core
+# AI Developer Challenge April 2026 - build AI Agents with Generative AI Hub
 
 For this month's coding challenge on the SAP Community, you will have the opportunity to learn more about the Orchestration Workflow available on Generative AI Hub with SAP AI Core. You will also work on building your first code-based agents with CrewAI and LiteLLM.
 
