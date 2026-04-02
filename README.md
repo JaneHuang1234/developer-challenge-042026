@@ -34,7 +34,7 @@ The data, in this case, is stored within an S3 Bucket on AWS (Amazon Web Service
 ### Main Components:
 
 **SAP BTP Platform**
-The entire solution runs on SAP Business Technology Platform on AWS:
+The entire solution runs on SAP Business Technology Platform:
 
 1. **Generative AI Hub** - The AI service layer containing:
    - **SAP AI Launchpad**: User interface for managing AI scenarios and deployments
@@ -150,13 +150,11 @@ What you'll learn:
 - **Integrate RAG with Agents**: Combine retrieval-augmented generation with agentic workflows for more accurate, knowledge-grounded responses
 - **Build End-to-End Solutions**: Create a complete system where agents autonomously retrieve relevant information before making decisions
 
-**Week 4: Structured Data Extraction with AI**
+**Week 4: Predict Missing Data Points using SAP-RPT-1**
 
 What you'll learn:
 
-- Utilize SAP's RPT-1 model from a code-based agent to understand and populate tabular data structures
-- Extract structured information from unstructured documents
-- Automatically fill forms and templates using AI-driven data extraction
+- How the SAP-RPT-1 model (SAP's Foundation model) predicts missing data points. As it is a pre-trained model, it can do regression and classification tasks without the need to train your own model.
 
 ### Submission Requirements
 
