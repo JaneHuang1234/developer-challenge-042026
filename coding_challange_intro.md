@@ -34,7 +34,7 @@ The data, in this case, is stored within an S3 Bucket on AWS (Amazon Web Service
 ### Main Components:
 
 **SAP BTP Platform**
-The entire solution runs on SAP Business Technology Platform on AWS:
+The entire solution runs on SAP Business Technology Platform:
 
 1. **Generative AI Hub** - The AI service layer containing:
    - **SAP AI Launchpad**: User interface for managing AI scenarios and deployments
