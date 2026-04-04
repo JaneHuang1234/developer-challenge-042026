@@ -17,12 +17,6 @@ By working through this exercise, you'll learn how to:
 
 The exercise implements a Hamburg Social Welfare Case Manager agent that can process citizen inquiries, assess eligibility for welfare programs, and generate personalized support plans. This demonstrates how AI agents can be designed to handle domain-specific scenarios requiring structured analysis and decision-making capabilities.
 
-## Prerequisites
-
-- Python environment (Jupyter Notebook)
-- Access to SAP AI Core instance
-- Configuration file from technical academy or local .env file
-
 ## Key Technologies
 
 ### LiteLLM

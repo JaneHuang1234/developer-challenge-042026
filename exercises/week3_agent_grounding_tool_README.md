@@ -71,15 +71,6 @@ The system combines:
 3. **Cloud SDK Retrieval API**: Connects to the vector database
 4. **Vector Database**: Contains Hamburg social services knowledge
 
-## Implementation Steps
-
-1. **Environment Setup**: Configure AI Core credentials and data repository ID
-2. **Import Libraries**: Load both CrewAI and Cloud SDK for AI packages
-3. **Build the Tool**: Create the grounding service wrapper with @tool decorator
-4. **Configure Agent**: Add the tool to the agent's tools array
-5. **Define Task**: Update task description to leverage grounding capabilities
-6. **Execute Crew**: Run the agent with tool access
-
 ## How It Works
 
 When a user asks a question:
@@ -101,13 +92,4 @@ Compared to the Week 2 agent that relied solely on model knowledge:
 - **Context-Aware**: Retrieves Hamburg-specific information
 - **Autonomous**: Agent decides when to use the tool
 
-## Testing Your Implementation
 
-Try questions that require specific knowledge from the database:
-
-- Specific program eligibility requirements
-- Local resource locations
-- Recent policy updates
-- Detailed procedure information
-
-Observe how the agent autonomously decides to call the grounding tool and incorporates the retrieved information into its responses.

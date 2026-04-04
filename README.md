@@ -29,7 +29,9 @@ For this challenge you are using different systems to achieve an automated groun
 # The Challenge
 
 [Week 1](exercises/week1_grounding.ipynb) — Build a RAG pipeline using SAP Generative AI Hub's Orchestration Service with document grounding and prompt templates.
-                                                                                                                                    [Week 2](exercises/week2_agent.ipynb) — Create your first AI agent with CrewAI connected to LLMs via SAP Generative AI Hub.
-                                                                                                                                    [Week 3](exercises/week3_agent_grounding_tool.ipynb) — Give your agent a grounding tool so it can autonomously retrieve relevant documents before responding.
+
+[Week 2](exercises/week2_agent.ipynb) — Create your first AI agent with CrewAI connected to LLMs via SAP Generative AI Hub.
+
+[Week 3](exercises/week3_agent_grounding_tool.ipynb) — Give your agent a grounding tool so it can autonomously retrieve relevant documents before responding.
                                                                                                                                     
 [Week 4](exercises/week4_rpt1.md) — Use SAP's RPT-1 foundation model to predict missing data points via regression and classification — no model training required.

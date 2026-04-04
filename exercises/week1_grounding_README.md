@@ -4,7 +4,7 @@
 
 This exercise introduces the orchestration service of SAP's Generative AI Hub and demonstrates how to implement Retrieval-Augmented Generation (RAG) using the document grounding capability.
 
-The orchestration service lets you use all available models with the same codebase. A deployment comes automatically with your AI Core instance, and you can access all available models by changing the model name parameter. You can also use grounding, prompt templating, data masking, and content filtering capabilities.
+The orchestration service lets you use all available models with the same codebase. A deployment comes automatically with your SAP AI Core instance, and you can access all available models by changing the model name parameter. You can also use grounding, prompt templating, data masking, and content filtering capabilities.
 
 ## What You'll Achieve
 
@@ -16,12 +16,6 @@ By working through this exercise, you'll learn how to:
 - **Use Prompt Templates**: Create structured prompts that incorporate both user queries and grounded context from your knowledge base
 
 The exercise demonstrates a practical implementation where the LLM can answer questions about the German NGO "die Tafel" and the German basic income support by retrieving relevant information from a pre-configured vector database, showcasing how grounding enhances response accuracy with domain-specific knowledge.
-
-## Prerequisites
-
-- Access to SAP AI Core instance
-- Python environment (Jupyter Notebook)
-- Cloud SDK for AI package (`sap-ai-sdk-gen`)
 
 ## Key Components
 
@@ -39,7 +33,7 @@ A structured template that includes:
 ### 3. Document Grounding Setup
 
 - **Data Repository ID**: Pre-configured vector database containing documents about German social services
-- **Search Filters**: Configured to retrieve up to 15 relevant chunks from the vector database
+- **Search Filters**: Configured to retrieve relevant chunks from the vector database
 - **Data Repository Type**: Vector-based retrieval for semantic search
 
 ### 4. Orchestration Configuration
