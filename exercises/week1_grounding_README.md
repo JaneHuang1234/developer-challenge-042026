@@ -63,3 +63,5 @@ Try asking questions such as:
 - Other queries related to German social services
 
 The system will retrieve relevant context from the vector database and provide accurate, grounded responses.
+
+[Submit your response HERE!](https://community.sap.com/t5/artificial-intelligence-forum/ai-developer-challenge-week-1-grounding-with-sap-generative-ai-hub/td-p/14366146)
