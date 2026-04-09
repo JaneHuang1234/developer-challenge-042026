@@ -35,3 +35,6 @@ For this challenge you are using different systems to achieve an automated groun
 [Week 3](exercises/week3_agent_grounding_tool.ipynb) — Give your agent a grounding tool so it can autonomously retrieve relevant documents before responding.
                                                                                                                                     
 [Week 4](exercises/week4_rpt1.md) — Use SAP's RPT-1 foundation model to predict missing data points via regression and classification — no model training required.
+
+# Troubleshooting
+- If you get a 404 during the grounding process in week 1, change the collection pipeline DATA_REPOSITORY_ID value to "ac26eb33-b4d6-4710-92aa-cff20eb43aad" 
