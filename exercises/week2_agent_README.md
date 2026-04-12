@@ -38,7 +38,7 @@ The Hamburg Social Welfare Case Manager agent is configured with:
 - **Role**: Hamburg Social Welfare Case Manager
 - **Goal**: Process and manage social welfare applications, matching citizens with appropriate services
 - **Backstory**: Experienced case manager with deep knowledge of Hamburg's social services
-- **LLM**: Uses `sap/gpt-4o` from Generative AI Hub
+- **LLM**: Uses `sap/gpt-4o` from Generative AI Hub (make sure you try different models!)
 - **Verbose Mode**: Enabled for detailed execution tracking
 
 ### 2. Task Definition
@@ -58,22 +58,6 @@ The system includes:
 - Crew execution with verbose output
 - Formatted assessment report generation
 
-## Environment Setup
-
-The notebook handles environment configuration in two ways:
-
-1. **Trial Environment**: Reads from `config.json` file with AI Core credentials
-2. **Local Development**: Uses `.env` file with environment variables
-
-Required environment variables:
-
-- `AICORE_AUTH_URL`
-- `AICORE_CLIENT_ID`
-- `AICORE_CLIENT_SECRET`
-- `AICORE_BASE_URL`
-- `LITELLM_PROVIDER` (set to "sap")
-- `AICORE_RESOURCE_GROUP`
-
 ## Testing Your Agent
 
 Try asking various social welfare questions to test the agent's capabilities in:
@@ -86,5 +70,4 @@ Try asking various social welfare questions to test the agent's capabilities in:
 ## Additional Resources
 
 - [Example Repo](https://sap-contributions.github.io/litellm-agentic-examples/_notebooks/examples/crewai_litellm_lib.html)
-- [Blog Post - Build AI Agents with CrewAI](https://community.sap.com/t5/artificial-intelligence-blogs-posts/i-built-an-ai-agent-with-litellm-crewai-and-sap-rpt-1-here-s-what-actually/ba-p/14315663)
 - [CodeJam on code-based agents](https://github.com/SAP-samples/codejam-code-based-agents/tree/main)
