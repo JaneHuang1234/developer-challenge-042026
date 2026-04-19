@@ -1,10 +1,26 @@
 # Week 3: AI Agents with Grounding Tools
 
-## Overview
+Welcome to week 3 of April's Developer Challenge on AI! This week you will combine what you learned in weeks 1 and 2 to build a more powerful AI agent that uses the grounding service as a tool.
 
-This exercise combines the concepts from weeks 1 and 2 to create a more powerful AI agent that can access external knowledge sources through custom tools. It demonstrates the full potential of agentic AI by equipping agents with the ability to retrieve domain-specific information on demand.
+## What You'll Build
 
-Welcome to week 3 of April's Developer Challenge on AI! This week you'll combine what you learned in weeks 1 and 2 and build an AI agent that uses the grounding service as a tool.
+In this exercise, you'll enhance the Hamburg Social Welfare Case Manager agent from Week 2 by equipping it with a **custom grounding tool**. This allows the agent to:
+
+- Query the vector database on demand for specific information
+- Retrieve Hamburg-specific social services documentation
+- Make decisions based on up-to-date, grounded knowledge
+- Provide more accurate and verifiable responses
+
+## The Power of Tool-Equipped Agents
+
+Unlike Week 2 where the agent relied solely on its base model knowledge, your Week 3 agent will:
+
+- **Autonomously decide** when to retrieve external information
+- **Access real documentation** instead of relying on training data
+- **Provide traceable answers** backed by actual source documents
+- **Stay current** with information from the knowledge base
+
+This is where AI agents truly shine - combining reasoning capabilities with the ability to access and utilize external knowledge sources!
 
 ## What You'll Achieve
 
@@ -23,7 +39,6 @@ The exercise extends the Hamburg Social Welfare Case Manager agent by giving it 
 - Python environment (Jupyter Notebook)
 - Access to SAP AI Core instance
 - Cloud SDK for AI package (`sap-ai-sdk-gen`)
-- CrewAI and LiteLLM packages
 
 ## Key Components
 
@@ -67,7 +82,7 @@ The Hamburg Social Welfare Case Manager agent is now equipped with:
 The system combines:
 
 1. **CrewAI Framework**: Manages agent behavior and task execution
-2. **LiteLLM**: Provides unified access to SAP Generative AI Hub models
+2. **Foundation Model Access**: Access to SAP Generative AI Hub models
 3. **Cloud SDK Retrieval API**: Connects to the vector database
 4. **Vector Database**: Contains Hamburg social services knowledge
 
@@ -91,5 +106,3 @@ Compared to the Week 2 agent that relied solely on model knowledge:
 - **Verifiable**: Answers can be traced back to source documents
 - **Context-Aware**: Retrieves Hamburg-specific information
 - **Autonomous**: Agent decides when to use the tool
-
-
