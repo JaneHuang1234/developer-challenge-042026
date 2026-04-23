@@ -26,6 +26,10 @@ By working through this exercise, you'll learn how to:
 ## The challenge
 
 Now that you are familiar with SAP-RPT-1 and how to use the playground, we want to challenge you.
-In the GitHub repository, you can find a CSV file [sales.csv]()
+In the GitHub repository, you can find a CSV file [sales.csv](https://github.com/noravth/developer-challenge-042026/blob/main/sales.csv). This CSV file includes sales data for different types of products. The goal is to use SAP-RPT-1 to predict the missing values for some of these products. The model should predict the sales group respectively for the product type. If you run the prediction through SAP-RPT-1 you will see, initially, that it is hallucinating.
 
-Submission: Post which fields you have changed in order to make the predictions correct.
+👉 Make sure you work with the SAP-RPT-1 model in a way that these predictions come out correct.
+
+> You can use the SAP-RPT-1 Playground to upload the CSV and test your predictions and trainings.
+
+To participate: Post which fields you have changed in order to make the predictions correct.
